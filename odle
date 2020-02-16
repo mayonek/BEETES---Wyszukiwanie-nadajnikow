@@ -1,0 +1,3 @@
+f = open("lotslask.tsv" ,encoding='iso8859_2')
+tekst = f.readlines(10)
+print(tekst)

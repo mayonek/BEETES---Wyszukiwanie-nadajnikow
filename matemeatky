@@ -1,0 +1,30 @@
+import math
+
+
+x1 = 50.154152
+y1 = 19.41241
+
+
+def calculateDistance(x1, y1, x2, y2):
+  dist = math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2) * 100
+  return dist
+
+
+def checkIfMin(min_id, min_val, i, distances):
+  if distances[-1][0] < min_val:
+    min_id = i
+    min_val = distances[-1][0]
+  return (min_id, min_val)
+
+
+with open(f'distance.txt', encoding="utf8") as f:
+  distances = []
+  min_id = 0
+  min_val = 999999
+  for i, l in enumerate(f.read().splitlines()):
+    x2, y2 = map(float, l.split(',')[:2])
+    distances.append([calculateDistance(x1, y1, x2, y2), l.split('"')[1]])
+    min_id, min_val = checkIfMin(min_id, min_val, i, distances)
+
+print("Min odległość: %.2fKM" % distances[min_id][0])
+print("Adres: %s" % distances[min_id][1])

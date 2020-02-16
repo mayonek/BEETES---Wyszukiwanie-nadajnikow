@@ -1,0 +1,36 @@
+import pandas as pd
+import numpy as np
+import math
+df = pd.read_csv('btsx.csv', dtype = {'LAT': np.float64, 'LON': np.float64, 'Adres': np.str, })
+x1 = 50.154152
+y1 = 19.41241
+def calculateDistance(x1, y1, x2, y2):
+  dist = math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2) * 100
+  return dist
+while True:
+    distances = []
+    min_id = 0
+    min_val = -1
+    for i in range(10837):
+        x = locals().get('x', -1) + 1
+
+        x2 = (df.loc[x,"Latitude"])
+        y2 = (df.loc[x,"Longitude"])
+        y3 = (df.loc[x,"Adres"])
+        distances.append(calculateDistance(x1, y1, x2, y2)),print(y3)
+        if min_val == -1:
+            min_val = distances[0][0]
+            min_id = 0
+        else:
+            if distances[-1][0] < min_val:
+                min_val = distances[-1][0]
+                min_id = i
+    print("Odegłość do nadajnika: %.2fKM" % min(distances))
+    print(y3, min(distances))
+    if True:
+        break
+
+
+
+
+
