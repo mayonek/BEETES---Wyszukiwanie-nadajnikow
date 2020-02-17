@@ -5,12 +5,12 @@ import time
 import pandas as pd
 import numpy as np
 import math
-
+# Śląsk,Dolnyślask, Małopolska
 geolocator = Nominatim(user_agent="my-application")
 loadbarwidth = 23
 print("################################################")
 print("BE TE ESIK v0.01 by piotr.wawrzyczek@netia.pl")
-print("------------------------------------------------------------------")
+print("Śląsk, Dolnyśląsk, Małopolska✓")
 
 for i in range(1, loadbarwidth + 1):
     time.sleep(0.1)
@@ -41,7 +41,7 @@ while True:
     time.sleep(0.5)
     print("szerokość geograficzna to :-" ,loc.latitude,"\ndlugosc geograficzna to:-" ,loc.longitude)
     time.sleep(0.5)
-    print("Otwieranie BTS")
+    print("Generowanie linku..")
     x = str(loc.latitude)
     y = str(loc.longitude)
 
@@ -72,18 +72,27 @@ while True:
             distances.append([calculateDistance(x1, y1, x2, y2), l.split('"')[1]])
             min_id, min_val = checkIfMin(min_id, min_val, i, distances)
 
-    print("Link do Map BTS:" + url)
+    print("Link do Map BTS : " + url)
     print("Położenie nadajnika: %s" % distances[min_id][1])
     print("Odległość do nadajnika: %.2fKM" % distances[min_id][0])
-    fopen = open('gctr.txt', mode='r+')
+    fopen = open('gctr.xls', mode='r+')
     fread = fopen.readlines()
+    fread2 = fopen.read()
     x = city
+    warun = 0
+    liniaaa = 0
     for line in fread:
         if x in line:
-            print("Znaleziono Aktywny GCTR : " + line)
-    for line in fread:
-        if not x in line:
-            print("Brak Aktywnego GCTR")
+            warun = warun+1
+            liniaaa = line
+    if warun == 0:
+      print("brak")
+    else:
+         print("Znaleziono Aktywny GCTR : sprawdź http://10.13.194.24/DKOK/  " + str(liniaaa))
+ 
+           
+    
+
 
 
 

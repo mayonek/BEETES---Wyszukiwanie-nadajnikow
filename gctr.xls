@@ -1,0 +1,493 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 //EN">
+<!-- saved from url=(0025)http://10.13.194.24/DKOK/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-2">
+    </head><body align="center" link="#00FF00" vlink="#00FF00" alink="#00FF00" bgcolor="000000" text="#00FF00"><font face="verdana" size="2">
+    <title>-= G C T R  status dla DKOK =-</title>
+
+<script language="JavaScript">
+<!--
+setTimeout("this.location.reload(true);",100000);
+
+// -->
+
+
+
+
+</script><font face="verdana" size="2"><br><br><p align="center"><b>GCTRy aktywne</b><br><br></p><table align="center" border="0" bordercolor="000000" cellpadding="3" cellspacing="2"><tbody><tr bgcolor="000000" text="ffffff"><th><font verdana="" size="2" color="ffffff">DATA</font></th>
+<th><font verdana="" size="2" color="ffffff">GCTR</font></th>
+<th><font verdana="" size="2" color="ffffff">OPIS</font></th>
+<th><font verdana="" size="2" color="ffffff">LOKALIZACJA</font></th>
+<th><font verdana="" size="2" color="ffffff">LOKALIZACJA DETALE</font></th>
+</tr><tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-17 10:18:22</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0026035</font></td>
+<td align="CENTER"><font face="verdana" size="3">KRAPKOWICE, ZDZIESZOWICE,problemy z polaczeniami glosowymi i transmisja danych.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: OPO</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat KRAPKOWICKI, ZYROWA, Ulica LESNA 7</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-17 07:34:59</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0026034</font></td>
+<td align="CENTER"><font face="verdana" size="3">KAMIENIEC ZABKOWICKI,Powiat ZABKOWICKI,BT33457 problemy z transmisj a danych.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: DOL</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat ZABKOWICKI, KAMIENIEC ZABKOWICKI, Ulica OGRODOWA 14/3 [50.530391;16.858985;5]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-13 12:21:33</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0026028</font></td>
+<td align="CENTER"><font face="verdana" size="3">SMOLEC,KRZEPTOW,owiat WROCLAWSKI,SN33628,problemy z polaczeniami glosowymi. RF_INTERFERENCJE.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: DOL</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat WROCLAWSKI, SMOLEC, Ulica TULIPANOWA 10 [51.074736;16.879400;1]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-13 12:12:41</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0026027</font></td>
+<td align="CENTER"><font face="verdana" size="3">RADWANICE,Powiat WROCLAW.SN33669,,problemy z polaczeniami glosowymi. RF_INTERFERENCJE.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: DOL</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat WROCLAWSKI, RADWANICE, Ulica POPRZECZNA 17 [51.068840;17.097952;0,2]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-11 13:37:31</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0026022</font></td>
+<td align="CENTER"><font face="verdana" size="3">Problem z doreczeniem smsow aplikacyjnych na kierunek +44 przez BICSa.
+W OSSCEM schodzi blad 155 - Error from HLR: system failure
+</font></td>
+<td align="CENTER"><font face="verdana" size="3">POLSKA + ROAMING</font></td>
+<td align="CENTER"><font face="verdana" size="4">SMSy +44</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-07 12:33:13</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0026009</font></td>
+<td align="CENTER"><font face="verdana" size="3">BRZOZOW,Powiat BRZOZOWSKI,LB26990,problemy z polaczeniami glosowymi i transmisja danych.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: PDK</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat BRZOZOWSKI, BRZOZOW, Ulica KOSZCZIUSZKI 25 [49.694052;22.036183;2,5]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-06 17:21:39</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0026004</font></td>
+<td align="CENTER"><font face="verdana" size="3">RADOSZYCE,Powiat KONECKI,BT12283,problemy z polaczeniami glosowymi. RF_INTERFERENCJE.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: SWI</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat KONECKI, PLENNA, Ulica PLENNA 18
+[51.070927;20.269901;2,5]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-03 17:21:32</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025983</font></td>
+<td align="CENTER"><font face="verdana" size="3">GENOWEFA,Powiat KONINSKI,SN33005,problemy z polaczeniami glosowymi. RF_INTERFERENCJE.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: WLK</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat KONINSKI, GENOWEFA, Ulica GENOWEFA 38A [52.173740;18.457829;2.5]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-03 14:49:27</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025981</font></td>
+<td align="CENTER"><font face="verdana" size="3">WIELKA WIES- problemy  z VOICE oraz DATA na 3G.
+RF_INTERFERENCJE</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: MAL</font></td>
+<td align="CENTER"><font face="verdana" size="4">WIELKA WIES [50.165553;19.817003;2,5]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-03 14:26:31</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025979</font></td>
+<td align="CENTER"><font face="verdana" size="3">KASZOW,ZAGACIE,Powiat KRAKOWSKI,SN20618,problemy z polaczeniami glosowymi. RF_INTERFERENCJE.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: MAL</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat KRAKOWSKI, MNIKOW, Ulica MNIKOW 39 [50.027147;19.723950;3]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-01 16:50:45</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025974</font></td>
+<td align="CENTER"><font face="verdana" size="3">NOWY KISIELIN,Powiat ZIELONOGORSKI,SN33786,problemy z polaczeniami glosowymi. RF_INTERFERENCJE.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: LBS</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat ZIELONOGORSKI, ZIELONA GORA, Ulica NOWYKISIELIN 6 [51.929913;15.611516;3]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-01-17 12:55:52</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025934</font></td>
+<td align="CENTER"><font face="verdana" size="3">BUDZISZEWICE.Powiat TOMASZOWSKI,BT35080,Problemy z polaczeniami glosowymi oraz transmisja danych.PNU</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: LOD</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat TOMASZOWSKI, BUDZISZEWICE, Ulica OSIEDLOWA 1A [51.664424;19.946338;5]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-01-16 12:13:18</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025929</font></td>
+<td align="CENTER"><font face="verdana" size="3">ZBIERSK,Powiat KALISKI,SN33330 ,problemy z polaczeniami glosowymi. RF_INTERFERENCJE</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: WLK</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat KALISKI, ZBIERSK, Ulica ZBIERSK 36 [51.915287;18.115381;5]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-01-14 17:44:08</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025924</font></td>
+<td align="CENTER"><font face="verdana" size="3">DOBRCZ,Powiat BYDGOSKI,SN44059.problemy z polaczeniami glosowymi. RF_INTERFERENCJE</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: KUJ</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat BYDGOSKI, DOBRCZ, Ulica DEBOWA 4 [53.266893;18.173289;5]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-01-14 09:28:54</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025919</font></td>
+<td align="CENTER"><font face="verdana" size="3">JAWOR- problemy z polaczeniami glosowymi. SN30515 RF_INTERFERENCJE</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: DOL</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat JAWORSKI, JAWOR, Ulica I OKOLICE [51.053257;16.192202;5]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-01-11 13:25:07</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025911</font></td>
+<td align="CENTER"><font face="verdana" size="3">TYCZYN,BOBROWNIKI,Powiat SIERADZKI,SN30657,problemy z polaczeniami glosowymi. RF_INTERFERENCJE</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: LOD</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat SIERADZKI, SIERADZ, Ulica BOBROWNIKI 23 [51.546892;18.884996;2.5]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-01-10 12:19:35</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025903</font></td>
+<td align="CENTER"><font face="verdana" size="3">GOLENIOW, PODANSKO - problemy z polaczeniami glosowymi i transmisja danych. BT43159</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: ZPO</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat GOLENIOWSKI, PODANSKO, Ulica WYLOTOWA 24 [53.549391;14.862242;3]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-01-10 08:13:39</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025898</font></td>
+<td align="CENTER"><font face="verdana" size="3">CZASOUMILACZ - brak sygnalu dzwonienia i odgrywanego utworu (RBT)</font></td>
+<td align="CENTER"><font face="verdana" size="3">POLSKA</font></td>
+<td align="CENTER"><font face="verdana" size="4">RBT</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-01-08 14:27:31</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025893</font></td>
+<td align="CENTER"><font face="verdana" size="3">SN32660 - CZAJKOW Powiat OSTRZESZOWSKI - problemy z polaczeniami glosowymi i transmisja danych. RF_INTERFERENCJE</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: WLK</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat OSTRZESZOWSKI, CZAJKOW [51.489738;18.312227;6]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-12-31 11:31:17</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025880</font></td>
+<td align="CENTER"><font face="verdana" size="3">RZECZYCA powiat KRASNICKI - problemy z polaczeniami glosowymi. BT10223 RF_INTERFERENCJE</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: LBL</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat KRASNICKI, TRZYDNIK DUZY, Ulica WEGLINEK 9 [50.839963;22.215436;6]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-12-19 09:13:59</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025868</font></td>
+<td align="CENTER"><font face="verdana" size="3">BILCZA,Powiat KIELECKI,BT12295,Problemy z polaczeniami glosowymi oraz transmisja danych. RF_INTERFERENCJE</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: SWI</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat KIELECKI, BILCZA, Ulica ROZANA 6 [50.798186;20.612288;3]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-12-15 19:45:57</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025853</font></td>
+<td align="CENTER"><font face="verdana" size="3">SWARZEDZ,ul.RACZYNSKIEGO,Powiat POZNANSKI,problemy z transmisja danych</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: WLK</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat POZNAN, SWARZEDZ, Ulica ZEROMSKIEGO 20 [52.407585;17.061471;1]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-12-13 19:46:36</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025848</font></td>
+<td align="CENTER"><font face="verdana" size="3">TOMASZOW LUBELSKI-POLUDNIE,Powiat TOMASZOWSKI,BT11318,Problemy z polaczeniami glosowymi oraz transmisja danych.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: LBL</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat TOMASZOWSKI, TOMASZOW LUBELSKI, Ulica WILCZA 7 [50.431158;23.412427;2]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-12-06 12:03:18</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025825</font></td>
+<td align="CENTER"><font face="verdana" size="3">VPBX - roaming. Klienci zglaszaja brak prezentacji numeru dzwoniacego na numerach z VPBX za granica
+</font></td>
+<td align="CENTER"><font face="verdana" size="3">ROAMING</font></td>
+<td align="CENTER"><font face="verdana" size="4">ROAMING</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-11-29 11:23:50</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025797</font></td>
+<td align="CENTER"><font face="verdana" size="3">NIWY,Powiat KIELECKI,SN11768,Problemy z polaczeniami glosowymi oraz transmisja danych. RF_INTERFERENCJE</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: SWI</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat KIELECKI, DALESZYCE, Ulica NIWY 121 [50.786050;20.805282;5]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-11-26 11:53:26</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025788</font></td>
+<td align="CENTER"><font face="verdana" size="3">Klienci zglaszaja problem z wykonywaniem polaczen RF_INTERFERENCJE</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: DOL</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat LEGNICKI, CHOJNOW [51.283969;15.938670;1,5]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-11-15 17:09:35</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025753</font></td>
+<td align="CENTER"><font face="verdana" size="3">SOCZEWKA,Powiat PLOCKI,SN11233,Problemy z polaczeniami glosowymi oraz transmisja danych. RF_INTERFERENCJE</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: MAZ</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat PLOCK, SOCZEWKA, Ulica LIPOWA 3 [52.564375;19.530088;5]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-10-23 17:17:43</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025685</font></td>
+<td align="CENTER"><font face="verdana" size="3">[BTS OFF] WARSZAWA_PRAGA (FSO ZERAN) BT11338 - problemy z polaczeniami glosowymi i transmisja danych.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: MAZ</font></td>
+<td align="CENTER"><font face="verdana" size="4">WARSZAWA_PRAGA [52.286331;21.014776;0,6]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-10-23 17:09:54</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025684</font></td>
+<td align="CENTER"><font face="verdana" size="3">[BTS OFF] WARSZAWA_ZERAN BT11023  ul. MARYWILSKA, PLOCHOCINSKA - problemy z polaczeniami glosowymi i transmisja danych.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: MAZ</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat WARSZAWA, WARSZAWA, Ulica MARYWILSKA 44A [52.311669;21.00344;0,8]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-09-26 06:30:14</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025583</font></td>
+<td align="CENTER"><font face="verdana" size="3">ZGORZELEC PLD.UJAZD,Powiat ZGORZELECKI,BT33736,problemy z polaczeniami glosowymi w 2G. RF_INTERFERENCJE</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: DOL</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat ZGORZELECKI, ZGORZELEC, Ulica OKOLNA 6 [51.135475;15.000301;1,2]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-09-16 12:23:09</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025554</font></td>
+<td align="CENTER"><font face="verdana" size="3">[BTS OFF] HERBY,Powiat LUBLINIECKI,BT22594,Problemy z polaczeniami glosowymi oraz transmisja danych.Deinstalacja stacji.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: SLA</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat LUBLINIECKI, HERBY, Ulica ASNYKA 5 [50.030323;19.854790;2]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-09-04 13:46:31</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025521</font></td>
+<td align="CENTER"><font face="verdana" size="3">ZABKI- problemy z polaczeniami glosowymi  w 2G/3G 
+BT/SN16394 zabki stadion  RF_INTERFERENCJE</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: MAZ</font></td>
+<td align="CENTER"><font face="verdana" size="4">ZABKI [52.290062;21.121906;1]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-07-18 17:04:18</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025354</font></td>
+<td align="CENTER"><font face="verdana" size="3">RUDNIKI,DALACHOW,Powiat OLESKI,SN22359,Problemy z polaczeniami glosowymi oraz transmisja danych. RF_INTERFERENCJE</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: OPO</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat OLESKI, SOWCZYCE, Ulica KROTKA 2 [51.037072;18.629153;4,5]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-07-11 07:06:54</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025340</font></td>
+<td align="CENTER"><font face="verdana" size="3">PAWLOWEK,KALISZ-POLNOC,Powiat KALISKI,SN33358,Problemy z polaczeniami glosowymi oraz transmisja danych. RF_INTERFERENCJE</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: WLK</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat KALISKI, PAWLOWEK, Ulica ASNYKA 6 [51.790020;18.079697;1,6]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-07-05 06:10:24</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025309</font></td>
+<td align="CENTER"><font face="verdana" size="3">[BTS OFF] Krakow Lobzow - problemy z polaczeniami glosowymi i transmisja danych. BT22944</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: MAL</font></td>
+<td align="CENTER"><font face="verdana" size="4">Krakow Lobzow [50.082052;19.906694;0,5]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-07-02 06:57:00</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025299</font></td>
+<td align="CENTER"><font face="verdana" size="3">[BTS OFF] DEBKI powiat PUCKI - problemy z polaczeniami glosowymi i transmisja danych.  BT43736</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: POM</font></td>
+<td align="CENTER"><font face="verdana" size="4">DEBKI powiat PUCKI [54.816086;18.038061;2,2]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-06-07 11:42:55</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025224</font></td>
+<td align="CENTER"><font face="verdana" size="3">SERWIS IPLA- SMS z kodem aktywacyjnym na dodanie MSISDN do konta IPLA- Nie dociera do Abonentow Plus</font></td>
+<td align="CENTER"><font face="verdana" size="3">POLSKA</font></td>
+<td align="CENTER"><font face="verdana" size="4">POLSKA</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-06-06 12:57:02</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025220</font></td>
+<td align="CENTER"><font face="verdana" size="3">OSIEK MALY,MLYNEK,Powiat KOLSKI,BT32455,Problemy z polaczeniami glosowymi oraz transmisja danych. RF_INTERFERENCJE</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: WLK</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat KOLSKI, DEBY SZLACHECKIE, Ulica DEBY SZLACHECKIE 34 [52.246610;18.568756;4]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-05-17 11:17:36</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025162</font></td>
+<td align="CENTER"><font face="verdana" size="3">[BTS OFF] SADY powiat POZNANSKI - problemy z polaczeniami glosowymi i transmisja danych . BT32181</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: WLK</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat POZNANSKI, SADY, Ulica POZNANSKA 18 [52.452139;16.724225;1,3]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-05-16 14:27:37</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025160</font></td>
+<td align="CENTER"><font face="verdana" size="3">[BTS OFF] TCZEW CENTRUM, BT44154 , Problemy z polaczeniami glosowymi oraz transmisja danych.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: POM</font></td>
+<td align="CENTER"><font face="verdana" size="4">TCZEW CENTRUM [54.088113;18.801139;0,7]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-04-19 15:16:59</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025091</font></td>
+<td align="CENTER"><font face="verdana" size="3">SZPROTAWA,ul.3 MAJA,Powiat ZAGANSKI,SN31109,Problemy z polaczeniami glosowymi oraz transmisja danych. RF_INTERFERENCJE.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: LBS</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat ZAGANSKI, SZPROTAWA, Ulica X 1 [51.525500;15.536936;5]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-04-17 11:33:57</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025082</font></td>
+<td align="CENTER"><font face="verdana" size="3">LEKI,Powiat OSWIECIMSKI,SN24184,Problemy z polaczeniami glosowymi oraz transmisja danych. RF_INTERFERENCJE.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: MAL</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat OSWIECIMSKI, LEKI, Ulica ORZECHOWA 30 [49.970272;19.235795;3,5]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-04-03 20:31:36</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025058</font></td>
+<td align="CENTER"><font face="verdana" size="3">CIBORZ, Powiat SWIEBODZINSKI,SN31499,Problemy z polaczeniami glosowymi oraz transmisja danych. RF_INTERFERENCJE.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: LBS</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat SWIEBODZINSKI, CIBORZ, Ulica CIBORZ 77 [52.155491;15.437363;2]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-03-28 17:02:20</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025039</font></td>
+<td align="CENTER"><font face="verdana" size="3">[BTS OFF] BT16372 WOLOMIN_SLAWEK - problemy z polaczeniami glosowymi i tranamisja danych. UMTS 900  i LTE 1800</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: MAZ</font></td>
+<td align="CENTER"><font face="verdana" size="4">WOLOMIN</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-03-27 13:44:26</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025033</font></td>
+<td align="CENTER"><font face="verdana" size="3">WISNIEW,Powiat SIEDLECKI,SN13080,Problemy z polaczeniami glosowymi oraz transmisja danych. RF_INTERFERENCJE.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: MAZ</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat SIEDLECKI, WISNIEW KOLONIA, Ulica WISNIEW KOLONIA 10 [52.048560;22.298823;3]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-03-19 07:26:26</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0025002</font></td>
+<td align="CENTER"><font face="verdana" size="3">[BTS_OFF] WARSZAWA ul. SWIDERSKA - problemy z polaczeniami glosowymi i transmisja danych. BT10726 SWIDERSKA_TEMP</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: MAZ</font></td>
+<td align="CENTER"><font face="verdana" size="4">BT10726 SWIDERSKA_TEMP</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-02-08 21:52:17</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0024876</font></td>
+<td align="CENTER"><font face="verdana" size="3">SULMIERZYCE,Powiat KROTOSZYNSKI,SN30507,Problemy z polaczeniami glosowymi oraz transmisja danych. RF_INTERFERENCJE.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: WLK</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat KROTOSZYNSKI, SULMIERZYCE, Ulica KALISKA 14</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-01-16 12:36:38</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0024804</font></td>
+<td align="CENTER"><font face="verdana" size="3">PLUSMEGA- problemy z poprawnym dzialaniem serwisu</font></td>
+<td align="CENTER"><font face="verdana" size="3">POLSKA</font></td>
+<td align="CENTER"><font face="verdana" size="4">POLSKA</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-01-07 14:48:37</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0024775</font></td>
+<td align="CENTER"><font face="verdana" size="3">JAZWINA,OLESZNA,Powiat DZIERZONIOWSKI,SN30577,Problemy z polaczeniami glosowymi oraz transmisja danych. RF_INTERFERENCJE.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: DOL</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat DZIERZONIOWSKI, OLESZNA, Ulica SPORTOWA 1</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-01-07 09:36:05</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0024769</font></td>
+<td align="CENTER"><font face="verdana" size="3">RACLAW,Powiat GORZOWSKI,SN31645,Problemy z polaczeniami glosowymi oraz transmisja danych. RF_INTERFERENCJE.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: LBS</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat GORZOWSKI, RACLAW, Ulica RACLAW 44</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2018-12-21 16:22:38</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0024726</font></td>
+<td align="CENTER"><font face="verdana" size="3">KUNOWICE,Powiat SLUBICKI,SN31506,Problemy z polaczeniami glosowymi oraz transmisja danych. RF_INTERFERENCJE.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: LBS</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat SLUBICKI, KUNOWICE, Ulica SZMARAGDOWA 5</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2018-12-13 09:16:13</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0024689</font></td>
+<td align="CENTER"><font face="verdana" size="3">ZUKI,Powiat TURECKI,SN33234,Problemy z polaczeniami glosowymi oraz transmisja danych. RF_INTERFERENCJE.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: WLK</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat TURECKI, ZUKI, Ulica ZUKI 104</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2018-12-10 09:07:17</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0024665</font></td>
+<td align="CENTER"><font face="verdana" size="3">LUBORZYCA,KOCMYRZOW,Powiat KRAKOWSKI,BT22790,Problemy z polaczeniami glosowymi oraz transmisja danych. RF_INTERFERENCJE.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: MAL</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat KRAKOWSKI, KOCMYRZOW, Ulica LUBORZYCA 1</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2018-11-26 10:42:08</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0024591</font></td>
+<td align="CENTER"><font face="verdana" size="3">WOLSZTYN, STARY WIDZIM, NOWY WIDZIM powiat WOLSZTYNSKI - problemy z polaczeniami glosowymi. SN32959 RF_INTERFERENCJE</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: WLK</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat WOLSZTYNSKI, STARY WIDZIM, Ulica STARY WIDZIM 105</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2018-11-23 11:49:47</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0024588</font></td>
+<td align="CENTER"><font face="verdana" size="3">WROCLAW STARE MIASTO ul. ZELWEROWICZA - problemy z polaczeniami glosowymi i transmisja danych. SN34264 i 33637 RF_INTERFERENCJE
+</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: DOL</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat WROCLAWSKI, WROCLAW, Ulica ZELWEROWICZA 20</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2018-11-23 11:44:23</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0024587</font></td>
+<td align="CENTER"><font face="verdana" size="3">WROCLAW ul. NA GROBLI i przylegle - problemy z polaczeniami glosowymi i transmisja danych. BT342651 RF_INTERFERENCJE</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: DOL</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat WROCLAW, WROCLAW, Ulica NA GROBLI 19</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2018-11-23 11:32:34</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0024585</font></td>
+<td align="CENTER"><font face="verdana" size="3">WROCLAW SOLTYSOWICE ul. BRUCKNERA i przylegle - problemy z polaczeniami glosowymi i transmisja danych. SN34271 RF_INTERFERENCJE</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: DOL</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat WROCLAW, WROCLAW, Ulica BRUCKNERA 10</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2018-11-13 13:08:27</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0024536</font></td>
+<td align="CENTER"><font face="verdana" size="3">MIRKOW- problemy z polaczeniami glosowymi w 3G 
+SN34052 RF_INTERFERENCJE</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: DOL</font></td>
+<td align="CENTER"><font face="verdana" size="4">MIRKOW</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2018-11-06 12:41:31</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0024506</font></td>
+<td align="CENTER"><font face="verdana" size="3">KESOWO,Powiat TUCHOLSKI,SN44518,Problemy z polaczeniami glosowymi oraz transmisja danych. RF_INTERFERENCJE.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: KUJ</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat TUCHOLSKI, KESOWO, Ulica LAKOWA 1</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2018-10-23 13:43:13</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0024455</font></td>
+<td align="CENTER"><font face="verdana" size="3">IPHONE XS/XR/11 nie moze wysylac mmsow. telefon nie konwertuje plikow do rozmiarow przesylanych w mms i mms nie jest wysylany.</font></td>
+<td align="CENTER"><font face="verdana" size="3">POLSKA</font></td>
+<td align="CENTER"><font face="verdana" size="4">POLSKA</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2018-10-22 14:53:53</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0024453</font></td>
+<td align="CENTER"><font face="verdana" size="3">BRZEZINY,ALEKSANDRIA,Powiat KALISKI,SN22590,Problemy z polaczeniami glosowymi oraz transmisja danych. RF_INTERFERENCJE.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: WLK</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat KALISKI, ALEKSANDRIA, Ulica ALEKSANDRIA 113</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2018-10-09 08:51:00</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0024386</font></td>
+<td align="CENTER"><font face="verdana" size="3">LUBANOWO,BANIE,Powiat GRYFINSKI,SN44575,Problemy z polaczeniami glosowymi oraz transmisja danych. RF_INTERFERENCJE.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: ZPO</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat GRYFINSKI, LUBANOWO, Ulica LUBANOWO 28</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2018-10-01 08:25:20</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0024343</font></td>
+<td align="CENTER"><font face="verdana" size="3">BONIEWO,Powiat WLOCLAWSKI, SN42613,Problemy z polaczeniami glosowymi oraz transmisja danych. RF_INTERFERENCJE.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: KUJ</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat WLOCLAWSKI, KLOBIA NOWA, Ulica KLOBIA NOWA 26</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2018-09-13 10:53:35</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0024256</font></td>
+<td align="CENTER"><font face="verdana" size="3">[BTS OFF] WARSZAWA ul. KOSMATKI, SECZKOWA,  POPRAWNA - problemy z polaczeniami glosowymi i transmisja danych. BT10305</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: MAZ</font></td>
+<td align="CENTER"><font face="verdana" size="4">[52,217063;21,101275;0,7]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2018-08-07 06:33:51</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0024096</font></td>
+<td align="CENTER"><font face="verdana" size="3">LUCZYCE- problemy  z voice oraz data w 3G 
+SN22130 RF_INTERFERENCJE</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: MAL</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat KRAKOWSKI, LUCZYCE</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2018-08-04 18:03:12</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0024085</font></td>
+<td align="CENTER"><font face="verdana" size="3">LUBSKO - problemy z voice oraz data w 3G
+RF_INTERFERENCJE</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: LBS</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat ZARSKI, LUBSKO</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2018-06-12 05:28:42</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0023738</font></td>
+<td align="CENTER"><font face="verdana" size="3">KALISZ- problemy z serwisem Voice oraz Data w 3G
+SN33784  SN33133
+RF_INTERFERENCJE</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: WLK</font></td>
+<td align="CENTER"><font face="verdana" size="4">KALISZ</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2018-05-17 09:28:20</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0023573</font></td>
+<td align="CENTER"><font face="verdana" size="3">WIERUSZOW- probelmy z polaczeniami glosowymi oraz data w 3G
+RF_INTERFERENCJE
+SN33232</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: LOD</font></td>
+<td align="CENTER"><font face="verdana" size="4">WIERUSZOW [51.288000;18.230551;4]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2018-05-01 11:26:18</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0023478</font></td>
+<td align="CENTER"><font face="verdana" size="3">[BTS OFF] HUTA NOWA,NOWA SLUPIA,Powiat KIELECKI,BT14674,problemy z polaczeniami glosowymi.Stacja przeniesiona na nizszy poziom.Powrot na pierwotny poziom nastapi po zakonczeniu prac remontowych tj za ok pol roku.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: SWI</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat KIELECKI, BIELINY, Ulica HUTA NOWA 97A</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2018-03-23 07:37:04</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0023240</font></td>
+<td align="CENTER"><font face="verdana" size="3">SN33209 - SYCOW, WIOSKA- problemy z polaczeniami glosowymi oraz transmisja danych w 3G RF_INTERFERENCJE</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: DOL</font></td>
+<td align="CENTER"><font face="verdana" size="4">SYCOW, WIOSKA</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2018-03-15 17:54:59</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0023193</font></td>
+<td align="CENTER"><font face="verdana" size="3">MECINA,LOSOSINA DOLNA,Powiat LIMANOWSKI,NOWOSADECKI,Problemy z polaczeniami glosowymi oraz transmisja danych w 3G. RF_INTERFERENCJE</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: MAL</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat LIMANOWSKI, MECINA, Ulica MECINA 50</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2018-02-21 10:36:51</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0023065</font></td>
+<td align="CENTER"><font face="verdana" size="3">[BTS OFF] ZGORZELEC,Powiat ZGORZELECKI, LB34522,LB34523,problemy ztransmisja danych w LTE.Ograniczenie mocy na 4 sektorach ze wzgledu na zalecenia UKE.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: DOL</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat ZGORZELECKI, ZGORZELEC, Ulica MODRZEWIOWA 37</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2017-12-01 12:06:59</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0022640</font></td>
+<td align="CENTER"><font face="verdana" size="3">SWIATNIKI GORNE,SIEPRAW,Powiat KRAKOWSKI,SN22385,Problemy z polaczeniami glosowymi oraz transmisja danych .RF_INTERFERENCJE.Zgloszono do UKE.
+</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: MAL</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat KRAKOWSKI, SWIATNIKI GORNE, Ulica POLUDNIOWA 11 [49.936553;19.956459;3]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2017-03-28 05:55:48</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0021302</font></td>
+<td align="CENTER"><font face="verdana" size="3">[BTS OFF] WARSZAWA ul.PLASKOWICKIEJ i okoliczne - problemy z polaczeniami glosowymi i transmisja danych. BT14135</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: MAZ</font></td>
+<td align="CENTER"><font face="verdana" size="4">[52,140100;21,038690;1]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2017-03-15 12:09:39</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0021243</font></td>
+<td align="CENTER"><font face="verdana" size="3">[BTS OFF]BLACHOWNIA.ul.KLONOWA,ROZANA,KOSCIUSZKI,problemy z polaczeniami glosowymi oraz transmisja danych.Deinstalacja stacji</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: SLA</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat CZESTOCHOWSKI, BLACHOWNIA, Ulica KLONOWA 43</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2016-12-16 13:40:27</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0020930</font></td>
+<td align="CENTER"><font face="verdana" size="3">[BTS OFF] BT20488 KRAKOW Pychowice - ul. TYNIECKA, GROTA-ROWECKIEGO, KAPELANKA G900,U900,U2100, L1800. Klienci z tych okolic moga zglaszac problemy z transmisja danych w LTE oraz z polaczeniami glosowymi.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: MAL</font></td>
+<td align="CENTER"><font face="verdana" size="4">KRAKOW TYNIECKA [50.038101;19.905359;2]</font></td>
+</tr>
+</tbody></table>
+<center></center></font></font></body></html>
