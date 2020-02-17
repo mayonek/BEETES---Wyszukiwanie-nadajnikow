@@ -86,9 +86,9 @@ while True:
             warun = warun+1
             liniaaa = line
     if warun == 0:
-      print("brak")
+      print("Brak Aktywnego GCTR")
     else:
-         print("Znaleziono Aktywny GCTR : sprawdź http://10.13.194.24/DKOK/  " + str(liniaaa))
+         print("Znaleziono Aktywny GCTR : sprawdź http://10.13.194.24/DKOK/  " + (liniaaa))
  
            
     
