@@ -1,11 +1,11 @@
 from  geopy.geocoders import Nominatim
-
-
+import substring
+import xlrd
 import time
 import pandas as pd
 import numpy as np
 import math
-# Śląsk,Dolnyślask, Małopolska
+# Śląsk,Dolnyślask,Małopolska,Opolskie
 geolocator = Nominatim(user_agent="my-application")
 loadbarwidth = 23
 print("################################################")
@@ -78,17 +78,21 @@ while True:
     fopen = open('gctr.xls', mode='r+')
     fread = fopen.readlines()
     fread2 = fopen.read()
-    x = city
+    s = substring.substringByChar(distances[min_id][1], startChar='[', endChar="]")
+    bt = substring.substringByInd(s, startInd=5,  endInd=11)
+    print(bt)
     warun = 0
     liniaaa = 0
     for line in fread:
-        if x in line:
+        if bt in line:
             warun = warun+1
             liniaaa = line
+            gctr = substring.substringByInd(liniaaa, startInd=49,  endInd=130)
+
     if warun == 0:
       print("Brak Aktywnego GCTR")
     else:
-         print("Znaleziono Aktywny GCTR : sprawdź http://10.13.194.24/DKOK/  " + (liniaaa))
+         print("Znaleziono Aktywny GCTR : " + (gctr))
  
            
     
