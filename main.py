@@ -10,7 +10,8 @@ geolocator = Nominatim(user_agent="my-application")
 loadbarwidth = 23
 print("################################################")
 print("BE TE ESIK v0.01 by piotr.wawrzyczek@netia.pl")
-print("Śląsk, Dolnyśląsk, Małopolska✓")
+print("Śląsk, Dolnyśląsk, Małopolska, Opolskie✓")
+print("Akualna Wersja znajduję awarię konkretego nadajnika")
 
 for i in range(1, loadbarwidth + 1):
     time.sleep(0.1)
