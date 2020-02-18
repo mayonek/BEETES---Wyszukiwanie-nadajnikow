@@ -18,11 +18,11 @@ setTimeout("this.location.reload(true);",100000);
 <th><font verdana="" size="2" color="ffffff">OPIS</font></th>
 <th><font verdana="" size="2" color="ffffff">LOKALIZACJA</font></th>
 <th><font verdana="" size="2" color="ffffff">LOKALIZACJA DETALE</font></th>
-</tr><tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-17 10:18:22</font></td>
-<td align="CENTER"><font face="verdana" size="3">GCTR-0026035</font></td>
-<td align="CENTER"><font face="verdana" size="3">KRAPKOWICE, ZDZIESZOWICE,problemy z polaczeniami glosowymi i transmisja danych.</font></td>
-<td align="CENTER"><font face="verdana" size="3">Woj: OPO</font></td>
-<td align="CENTER"><font face="verdana" size="4">Powiat KRAPKOWICKI, ZYROWA, Ulica LESNA 7</font></td>
+</tr><tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-18 08:36:35</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0026042</font></td>
+<td align="CENTER"><font face="verdana" size="3">POLACZENIA GLOSOWE - brak mozliwosci dodzwonienia sie na numery stacjonarne nalezace do Orange. Dotyczy zakresu numeracyjnego 523... oraz 566...</font></td>
+<td align="CENTER"><font face="verdana" size="3">POLSKA</font></td>
+<td align="CENTER"><font face="verdana" size="4">POLSKA</font></td>
 </tr>
 <tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-17 07:34:59</font></td>
 <td align="CENTER"><font face="verdana" size="3">GCTR-0026034</font></td>
@@ -141,12 +141,6 @@ RF_INTERFERENCJE</font></td>
 <td align="CENTER"><font face="verdana" size="3">RZECZYCA powiat KRASNICKI - problemy z polaczeniami glosowymi. BT10223 RF_INTERFERENCJE</font></td>
 <td align="CENTER"><font face="verdana" size="3">Woj: LBL</font></td>
 <td align="CENTER"><font face="verdana" size="4">Powiat KRASNICKI, TRZYDNIK DUZY, Ulica WEGLINEK 9 [50.839963;22.215436;6]</font></td>
-</tr>
-<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-12-19 09:13:59</font></td>
-<td align="CENTER"><font face="verdana" size="3">GCTR-0025868</font></td>
-<td align="CENTER"><font face="verdana" size="3">BILCZA,Powiat KIELECKI,BT12295,Problemy z polaczeniami glosowymi oraz transmisja danych. RF_INTERFERENCJE</font></td>
-<td align="CENTER"><font face="verdana" size="3">Woj: SWI</font></td>
-<td align="CENTER"><font face="verdana" size="4">Powiat KIELECKI, BILCZA, Ulica ROZANA 6 [50.798186;20.612288;3]</font></td>
 </tr>
 <tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2019-12-15 19:45:57</font></td>
 <td align="CENTER"><font face="verdana" size="3">GCTR-0025853</font></td>

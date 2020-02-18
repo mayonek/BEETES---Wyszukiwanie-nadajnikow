@@ -10,14 +10,14 @@ geolocator = Nominatim(user_agent="my-application")
 loadbarwidth = 23
 print("################################################")
 print("BE TE ESIK v0.01 by piotr.wawrzyczek@netia.pl")
-print("Śląsk, Dolnyśląsk, Małopolska, Opolskie✓")
-print("Akualna Wersja znajduję awarię konkretego nadajnika")
+print("Śląsk, Dolnyśląsk, Małopolska, Opolskie, Kujawsko Pomorskie,Lubelskie, Lubuskie, Mazowieckie✓")
+print("Aktualna Wersja znajduję awarię konkretego nadajnika✓")
 
 for i in range(1, loadbarwidth + 1):
     time.sleep(0.1)
 
     strbarwidth = '[{}{}] - {}\r'.format(
-        (i * '@'),
+        (i * '✓'),
         ((loadbarwidth - i) * '-'),
         (('{:0.2f}'.format(((i) * (100/loadbarwidth))) + '% Lączenie z Google Maps'))
     )
@@ -50,7 +50,7 @@ while True:
     url = 'http://beta.btsearch.pl/?dataSource=locations&network=26001&standards=&bands=&center='+(wspol)+'&zoom=20'
 
     time.sleep(1)
-    print("Sukces")
+    print("Sukces✓")
     df = pd.read_csv('btsx.csv', dtype={'LAT': np.float64, 'LON': np.float64, 'Adres': np.str, })
     x1 = (loc.latitude)
     y1 = (loc.longitude)
@@ -80,15 +80,15 @@ while True:
     fread = fopen.readlines()
     fread2 = fopen.read()
     s = substring.substringByChar(distances[min_id][1], startChar='[', endChar="]")
-    bt = substring.substringByInd(s, startInd=5,  endInd=11)
-    print(bt)
+    bt = substring.substringByInd(s, startInd=7,  endInd=11)
+    print("BT"+bt)
     warun = 0
     liniaaa = 0
     for line in fread:
         if bt in line:
             warun = warun+1
             liniaaa = line
-            gctr = substring.substringByInd(liniaaa, startInd=49,  endInd=130)
+            gctr = substring.substringByChar(liniaaa, startChar='>', endChar=".")
 
     if warun == 0:
       print("Brak Aktywnego GCTR")
