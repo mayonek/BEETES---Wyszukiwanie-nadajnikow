@@ -1,16 +1,16 @@
 from  geopy.geocoders import Nominatim
 import substring
-import xlrd
 import time
 import pandas as pd
 import numpy as np
 import math
+import webbrowser
 # Śląsk,Dolnyślask,Małopolska,Opolskie
 geolocator = Nominatim(user_agent="my-application")
 loadbarwidth = 23
 print("################################################")
-print("BE TE ESIK v0.01 by piotr.wawrzyczek@netia.pl")
-print("Śląsk, Dolnyśląsk, Małopolska, Opolskie, Kujawsko Pomorskie,Lubelskie, Lubuskie, Mazowieckie✓")
+print("BETEES v1.01 by piotr.wawrzyczek@netia.pl")
+print("Wszystkie nadajnik dodane")
 print("Aktualna Wersja znajduję awarię konkretego nadajnika✓")
 
 for i in range(1, loadbarwidth + 1):
@@ -19,7 +19,7 @@ for i in range(1, loadbarwidth + 1):
     strbarwidth = '[{}{}] - {}\r'.format(
         (i * '✓'),
         ((loadbarwidth - i) * '-'),
-        (('{:0.2f}'.format(((i) * (100/loadbarwidth))) + '% Lączenie z Google Maps'))
+        (('{:0.2f}'.format(((i) * (100/loadbarwidth))) + '% Lączenie z Mapami'))
     )
 
     print(strbarwidth ,end = '')
@@ -29,6 +29,8 @@ while True:
 
     print("Wpisz adres:")
     city = input()
+    
+    
     country ="PL"
     try:
         loc = geolocator.geocode(city+',' + country)
@@ -45,11 +47,11 @@ while True:
     print("Generowanie linku..")
     x = str(loc.latitude)
     y = str(loc.longitude)
-
+    
     wspol = (x+","+y)
     url = 'http://beta.btsearch.pl/?dataSource=locations&network=26001&standards=&bands=&center='+(wspol)+'&zoom=20'
-
-    time.sleep(1)
+    
+    
     print("Sukces✓")
     df = pd.read_csv('btsx.csv', dtype={'LAT': np.float64, 'LON': np.float64, 'Adres': np.str, })
     x1 = (loc.latitude)
@@ -64,24 +66,51 @@ while True:
             min_val = distances[-1][0]
         return (min_id, min_val)
 
-    with open(f'distance.txt', encoding="utf8") as f:
-        distances = []
-        min_id = 0
-        min_val = 999999
-        for i, l in enumerate(f.read().splitlines()):
-            x2, y2 = map(float, l.split(',')[:2])
-            distances.append([calculateDistance(x1, y1, x2, y2), l.split('"')[1]])
-            min_id, min_val = checkIfMin(min_id, min_val, i, distances)
-
+    with open(f'distance.txt') as f:
+      distances = []
+      min_id = 0
+      min_val = 999999
+      for i, l in enumerate(f.read().splitlines()):
+        x2, y2 = map(float, l.split(',')[:2])
+        distances.append([calculateDistance(x1, y1, x2, y2), l.split('"')[1]])
+        min_id, min_val = checkIfMin(min_id, min_val, i, distances)
+      n = int(input("Ile nadajników? "))
+      results = distances[:n]
+      results.sort(key=lambda x: x[0])
+      
+    
     print("Link do Map BTS : " + url)
-    print("Położenie nadajnika: %s" % distances[min_id][1])
+    print("Adres klineta : " +city)
+    print("Nadajnik: %s" % distances[min_id][1])
     print("Odległość do nadajnika: %.2fKM" % distances[min_id][0])
+    ad = substring.substringByChar(distances[min_id][1], startChar='[', endChar="]")
+    bts = substring.substringByInd(ad, startInd=7,  endInd=11)
+    gopen = open('distance.txt', mode='r+')
+    gread = gopen.readlines()
+    # Po numerze BT szuka w linii trybu pracy 
+    for line in gread:
+       if bts in line:
+        line1 = substring.substringByChar(line, startChar='[', endChar="]")
+        if "G900" in line1:
+          continue
+        if "U2100" in line1:     
+          continue
+        if "L1800" in line1:  
+          continue
+        else:
+          print("Tryby sieci : 2G/3G/LTE")
+          break
+        
+       
+        
+    a = distances[min_id][0]
+    b = 5
+    
     fopen = open('gctr.xls', mode='r+')
     fread = fopen.readlines()
     fread2 = fopen.read()
     s = substring.substringByChar(distances[min_id][1], startChar='[', endChar="]")
     bt = substring.substringByInd(s, startInd=7,  endInd=11)
-    print("BT"+bt)
     warun = 0
     liniaaa = 0
     for line in fread:
@@ -89,12 +118,13 @@ while True:
             warun = warun+1
             liniaaa = line
             gctr = substring.substringByChar(liniaaa, startChar='>', endChar=".")
-
+            gctr1 = gctr[31:]
     if warun == 0:
       print("Brak Aktywnego GCTR")
     else:
-         print("Znaleziono Aktywny GCTR : " + (gctr))
- 
+         print("Znaleziono Aktywny GCTR : " + (gctr1))
+    if a >= b:
+      print("Prawdopodbnie BMT")
            
     
 
