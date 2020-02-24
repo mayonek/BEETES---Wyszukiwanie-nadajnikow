@@ -1,3 +1,39 @@
-f = open("lotslask.tsv" ,encoding='iso8859_2')
-tekst = f.readlines(10)
-print(tekst)
+from math import *
+import math
+
+lat1 = 50.623475
+lon1 = 16.519152
+
+
+def calculate_distance(lat1, lon1, lat2, lon2):
+    p = 0.017453292519943295     #Pi/180
+    a = 0.5 - cos((lat2 - lat1) * p)/2 + cos(lat1 * p) * cos(lat2 * p) * (1 - cos((lon2 - lon1) * p)) / 2
+    return 12742 * asin(sqrt(a)) #2*R*asin...
+
+def calculateDistance(lat1, lon1, lat2, lon2):
+  dist = math.sqrt((lat2 - lat1) ** 2 + (lon2 - lon1) ** 2) * 100
+  return dist
+
+with open(f'bazy/distance.txt', encoding="utf8", errors='ignore') as f:
+      distances = []
+      for i, l in enumerate(f.read().splitlines()):
+        lat2, lon2 = map(float, l.split(',')[:2])
+        distances.append([calculate_distance(lat1, lon1, lat2, lon2), l.split('"')[1]])
+      distances.sort(key=lambda x: x[0])
+      print("Pierwszy Wzor ")
+      for e in distances[:60]:
+        print("Nadajnik: {} | Odległość od nadajnika: {}".format(e[1], round(e[0], 2)))
+        with open("bazy/distance1.txt", 'a', encoding="utf8") as f:
+            print(*e, file=f)
+
+#with open(f'bazy/distance.txt', encoding="utf8", errors='ignore') as f:
+   # distances = []
+  #  for i, l in enumerate(f.read().splitlines()):
+ #       lat2, lon2 = map(float, l.split(',')[:2])
+ #       distances.append([calculateDistance(lat1, lon1, lat2, lon2), l.split('"')[1]])
+ #   distances.sort(key=lambda x: x[0])
+ #   print("Drugie Wzór ")
+ #   for e in distances[:60]:
+ #       print("Nadajnik: {} | Odległość od nadajnika: {}".format(e[1], round(e[0], 2)))
+  #      with open("bazy/distance2.txt", 'a', encoding="utf8") as f:
+  #          print(*e, file=f)
