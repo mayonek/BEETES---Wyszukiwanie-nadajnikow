@@ -1,0 +1,42 @@
+[
+    {
+        "address": "Ludwikowice Kłodzkie, ul. Kościuszki 9 - maszt Plusa",
+        "lat": 50.619167,
+        "lon": 16.480556,
+        "distance": 2.763376007197365,
+        "id": "BT30612",
+        "network_modes": [
+            "L1800",
+            "L900",
+            "G900",
+            "U900-3030"
+        ]
+    },
+    {
+        "address": "Nowa Ruda, pl. Ks. Michała Białowąsa 10 - wieża kościoła",
+        "lat": 50.577778,
+        "lon": 16.501111,
+        "distance": 5.238423903855238,
+        "id": "BT34305",
+        "network_modes": [
+            "L1800",
+            "L900",
+            "U2100-10737",
+            "U2100-10762",
+            "U900-3030",
+            "G900"
+        ]
+    },
+    {
+        "address": "Rzeczka, maszt Plusa obok schroniska Orzeł",
+        "lat": 50.663056,
+        "lon": 16.468889,
+        "distance": 5.649716208933042,
+        "id": "BT30570",
+        "network_modes": [
+            "L1800",
+            "G900",
+            "U900-3030"
+        ]
+    }
+]

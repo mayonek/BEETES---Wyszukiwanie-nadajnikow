@@ -1,0 +1,45 @@
+[
+    {
+        "address": "Bytom, ul. Racławicka 16-18 - budynek mieszkalny",
+        "lat": 50.356111,
+        "lon": 18.873056,
+        "distance": 1.0764902386749353,
+        "id": "BT22930",
+        "network_modes": [
+            "L1800",
+            "L900",
+            "G900",
+            "U900-3030",
+            "U2100-10737",
+            "U2100-10762"
+        ]
+    },
+    {
+        "address": "Bytom, ul. Frenzla - maszt Plusa na terenie kopalni Miechowice - szyb północny",
+        "lat": 50.361389,
+        "lon": 18.849444,
+        "distance": 1.6399016765886538,
+        "id": "BT22009",
+        "network_modes": [
+            "L1800",
+            "L900",
+            "G900",
+            "U2100-10737",
+            "U2100-10762"
+        ]
+    },
+    {
+        "address": "Bytom, ul. Felińskiego 8-12 - blok (11 p.)",
+        "lat": 50.367778,
+        "lon": 18.8475,
+        "distance": 1.7195292995612428,
+        "id": "BT22931",
+        "network_modes": [
+            "L900",
+            "G900",
+            "U900-3030",
+            "U2100-10737",
+            "U2100-10762"
+        ]
+    }
+]

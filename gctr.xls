@@ -18,17 +18,55 @@ setTimeout("this.location.reload(true);",100000);
 <th><font verdana="" size="2" color="ffffff">OPIS</font></th>
 <th><font verdana="" size="2" color="ffffff">LOKALIZACJA</font></th>
 <th><font verdana="" size="2" color="ffffff">LOKALIZACJA DETALE</font></th>
-</tr><tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-18 08:36:35</font></td>
-<td align="CENTER"><font face="verdana" size="3">GCTR-0026042</font></td>
-<td align="CENTER"><font face="verdana" size="3">POLACZENIA GLOSOWE - brak mozliwosci dodzwonienia sie na numery stacjonarne nalezace do Orange. Dotyczy zakresu numeracyjnego 523... oraz 566...</font></td>
-<td align="CENTER"><font face="verdana" size="3">POLSKA</font></td>
+</tr><tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-25 12:27:13</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0026070</font></td>
+<td align="CENTER"><font face="verdana" size="3">Klienci CP moga zglaszac problemy z zestawieniem sesji internetowej</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: MAL</font></td>
 <td align="CENTER"><font face="verdana" size="4">POLSKA</font></td>
 </tr>
-<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-17 07:34:59</font></td>
-<td align="CENTER"><font face="verdana" size="3">GCTR-0026034</font></td>
-<td align="CENTER"><font face="verdana" size="3">KAMIENIEC ZABKOWICKI,Powiat ZABKOWICKI,BT33457 problemy z transmisj a danych.</font></td>
-<td align="CENTER"><font face="verdana" size="3">Woj: DOL</font></td>
-<td align="CENTER"><font face="verdana" size="4">Powiat ZABKOWICKI, KAMIENIEC ZABKOWICKI, Ulica OGRODOWA 14/3 [50.530391;16.858985;5]</font></td>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-25 08:25:46</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0026067</font></td>
+<td align="CENTER"><font face="verdana" size="3">RABKA-ZDROJ.Powiat NOWOTARSKI,SN22208,problemy z polaczeniami glosowymi.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: MAL</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat NOWOTARSKI, RABKA-ZDROJ, Ulica ZAGORZA 1 [49.612482;19.966202;1,5]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-24 21:20:52</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0026065</font></td>
+<td align="CENTER"><font face="verdana" size="3">ROZNOW,Powiat NOWOSADECKI,BT24787,Problemy z polaczeniami glosowymi oraz transmisja danych</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: MAL</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat NOWOSADECKI, ROZNOW, Ulica ROZNOW 406 [49.758611;20.702207;2]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-24 16:43:42</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0026062</font></td>
+<td align="CENTER"><font face="verdana" size="3">LEJEK PREPAID - taryfy ELASTYCZNA NA KARTE (GigaBank) i JA + Internet na Karte Bonus za doladowanie - problemy ze schodzeniem lejkow z PCRF po doladowaniu.
+</font></td>
+<td align="CENTER"><font face="verdana" size="3">POLSKA</font></td>
+<td align="CENTER"><font face="verdana" size="4">Lejek PREPAID</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-20 12:21:20</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0026054</font></td>
+<td align="CENTER"><font face="verdana" size="3">ZDUNSKA WOLA.MOSTKI,SN31364, problemy z polaczeniami glosowymi. RF_INTERFERENCJE.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: LOD</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat ZDUNSKOWOLSKI, ZDUNSKA WOLA, Ulica MURARSKA 21 [51.600928;18.965181;1]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-19 07:46:11</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0026049</font></td>
+<td align="CENTER"><font face="verdana" size="3">KONOPNICA,Powiat WIELUNSKI,SN30500,problemy z polaczeniami glosowymi i transmisja danych.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: LOD</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat WIELUNSKI, KONOPNICA, Ulica WCZASOWA 45 [51.352708;18.812597;4]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-18 11:55:05</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0026044</font></td>
+<td align="CENTER"><font face="verdana" size="3">GRANOWO powiat GRODZISKI - problemy z polaczeniami glosowymi. 
+NB33886</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: WLK</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat GRODZISKI, GRANOWO, Ulica POZNANSKA 2C [52.216146;16.534443;3]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-18 11:52:51</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0026043</font></td>
+<td align="CENTER"><font face="verdana" size="3">KOBYLNICA,Powiat POZNANSKI,SN33238,problemy z polaczeniami glosowymi. RF_INTERFERENCJE</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: WLK</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat POZNANSKI, KOBYLNICA, Ulica ZWIRKI I WIGURY 12 12B [52.448984;17.095723;2]</font></td>
 </tr>
 <tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-13 12:21:33</font></td>
 <td align="CENTER"><font face="verdana" size="3">GCTR-0026028</font></td>
@@ -41,14 +79,6 @@ setTimeout("this.location.reload(true);",100000);
 <td align="CENTER"><font face="verdana" size="3">RADWANICE,Powiat WROCLAW.SN33669,,problemy z polaczeniami glosowymi. RF_INTERFERENCJE.</font></td>
 <td align="CENTER"><font face="verdana" size="3">Woj: DOL</font></td>
 <td align="CENTER"><font face="verdana" size="4">Powiat WROCLAWSKI, RADWANICE, Ulica POPRZECZNA 17 [51.068840;17.097952;0,2]</font></td>
-</tr>
-<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-11 13:37:31</font></td>
-<td align="CENTER"><font face="verdana" size="3">GCTR-0026022</font></td>
-<td align="CENTER"><font face="verdana" size="3">Problem z doreczeniem smsow aplikacyjnych na kierunek +44 przez BICSa.
-W OSSCEM schodzi blad 155 - Error from HLR: system failure
-</font></td>
-<td align="CENTER"><font face="verdana" size="3">POLSKA + ROAMING</font></td>
-<td align="CENTER"><font face="verdana" size="4">SMSy +44</font></td>
 </tr>
 <tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-07 12:33:13</font></td>
 <td align="CENTER"><font face="verdana" size="3">GCTR-0026009</font></td>
@@ -68,13 +98,6 @@ W OSSCEM schodzi blad 155 - Error from HLR: system failure
 <td align="CENTER"><font face="verdana" size="3">GENOWEFA,Powiat KONINSKI,SN33005,problemy z polaczeniami glosowymi. RF_INTERFERENCJE.</font></td>
 <td align="CENTER"><font face="verdana" size="3">Woj: WLK</font></td>
 <td align="CENTER"><font face="verdana" size="4">Powiat KONINSKI, GENOWEFA, Ulica GENOWEFA 38A [52.173740;18.457829;2.5]</font></td>
-</tr>
-<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-03 14:49:27</font></td>
-<td align="CENTER"><font face="verdana" size="3">GCTR-0025981</font></td>
-<td align="CENTER"><font face="verdana" size="3">WIELKA WIES- problemy  z VOICE oraz DATA na 3G.
-RF_INTERFERENCJE</font></td>
-<td align="CENTER"><font face="verdana" size="3">Woj: MAL</font></td>
-<td align="CENTER"><font face="verdana" size="4">WIELKA WIES [50.165553;19.817003;2,5]</font></td>
 </tr>
 <tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-03 14:26:31</font></td>
 <td align="CENTER"><font face="verdana" size="3">GCTR-0025979</font></td>
