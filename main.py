@@ -18,7 +18,7 @@ for i in range(1, loadbarwidth + 1):
     )
 
     print(strbarwidth, end='')
-print("BE TE ES v2 Piotr.Wawrzyczek@netia.pl ")
+print("BE TE ES v2  ")
 
 
 # def calculate_distance(lat1, lon1, lat2, lon2):
@@ -58,7 +58,7 @@ class Transmitter:
 
     # PRINTOWANIE WYNIKÓW
     def print(self):
-        print('✓')
+        print('#')
         print('Położenie BT: %s' % self.address)
         print('Dystans: %.2fkm' % self.distance)
         print('BT: %s' % self._id)
@@ -93,13 +93,13 @@ def save_to_file(n):
             f.write(json.dumps([t.to_dictionary() for t in transmitters[:n]], ensure_ascii=False, indent=4))
         print('Saved as %s' % save_path)
     except:
-        print('Couldn\'t save the output')
+        print(' ')
 
 
 def start():
     while True:
-        print("Wprowadź adres:")
-        city = input()
+        city = input("Wprowadz adres: ")
+        
         country = "PL"
         try:
             loc = geolocator.geocode(city + ',' + country)
