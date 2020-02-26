@@ -18,7 +18,7 @@ class bcolors:
     ENDC = '\033[0m'
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
-
+    orange='\033[33m'
 class Transmitter:
   def __init__(self, address, lat, lon, distance, _id, network_modes):
     self.address = address
@@ -29,7 +29,13 @@ class Transmitter:
     self.network_modes = network_modes
 
   def print(self):
-    print('<-')
+    if self.distance > 5:
+      print(f"{bcolors.FAIL}"'#')
+    if self.distance < 5:
+      print(f"{bcolors.OKGREEN}"'#')
+    if self.distance > 3 and self.distance < 5:
+      print(f"{bcolors.orange}"'#')
+    
     print('Adres: %s' % self.address)
     print('Dystans: %.2fkm' % self.distance)
     print('Id: %s' % self._id)
@@ -48,10 +54,10 @@ class Transmitter:
             gctr = substring.substringByChar(liniaaa, startChar='>', endChar=".")
             gctr1 = gctr[31:]
     if warun == 0:
-       print(f"{bcolors.OKGREEN}Brak Aktywnego GCTR na : {bcolors.ENDC} " + self._id)
+       print("Brak Aktywnego GCTR na :" + self._id)
        
     else:
-       print(f"{bcolors.HEADER}Znaleziono Aktywny GCTR :{bcolors.ENDC} " + (gctr1))
+       print(f"{bcolors.FAIL}Znaleziono Aktywny GCTR :{bcolors.ENDC} " + (gctr1))
 
   def to_dictionary(self):
     return {'address': self.address, 'lat': self.lat, 'lon': self.lon, 'distance': self.distance, 'id': self._id, 'network_modes': self.network_modes}
@@ -93,7 +99,7 @@ def get_lat_lon(geolocator):
 def generate_link(lat1, lon1):
   print('Generowanie linku')
   url = 'http://beta.btsearch.pl/?dataSource=locations&network=26001&standards=&bands=&center={},{}&zoom=20'.format(lat1, lon1)
-  print(url)
+  print(f"{bcolors.OKBLUE}"+f"{bcolors.BOLD}"+url+bcolors.ENDC)
 
 
 def init(lat1, lon1, transmitters):
