@@ -8,7 +8,16 @@ def calculate_distance(lat1, lon1, lat2, lon2):
   p = 0.017453292519943295 #Pi/180
   a = 0.5 - cos((lat2 - lat1) * p)/2 + cos(lat1 * p) * cos(lat2 * p) * (1 - cos((lon2 - lon1) * p)) / 2
   return 12742 * asin(sqrt(a)) #2*R*asin...
-
+print("stan gctr na 26.02.2020 13:04")
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
 
 class Transmitter:
   def __init__(self, address, lat, lon, distance, _id, network_modes):
@@ -22,7 +31,7 @@ class Transmitter:
   def print(self):
     print('<-')
     print('Adres: %s' % self.address)
-    print('Dystans: %.3fkm' % self.distance)
+    print('Dystans: %.2fkm' % self.distance)
     print('Id: %s' % self._id)
     print('Tryby sieci: %s' % ', '.join(self.network_modes))
         # print('->')
@@ -39,10 +48,10 @@ class Transmitter:
             gctr = substring.substringByChar(liniaaa, startChar='>', endChar=".")
             gctr1 = gctr[31:]
     if warun == 0:
-       print("Brak Aktywnego GCTR na " + self._id)
-
+       print(f"{bcolors.OKGREEN}Brak Aktywnego GCTR na : {bcolors.ENDC} " + self._id)
+       
     else:
-       print("Znaleziono Aktywny GCTR : " + (gctr1))
+       print(f"{bcolors.HEADER}Znaleziono Aktywny GCTR :{bcolors.ENDC} " + (gctr1))
 
   def to_dictionary(self):
     return {'address': self.address, 'lat': self.lat, 'lon': self.lon, 'distance': self.distance, 'id': self._id, 'network_modes': self.network_modes}

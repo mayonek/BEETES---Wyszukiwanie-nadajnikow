@@ -18,10 +18,34 @@ setTimeout("this.location.reload(true);",100000);
 <th><font verdana="" size="2" color="ffffff">OPIS</font></th>
 <th><font verdana="" size="2" color="ffffff">LOKALIZACJA</font></th>
 <th><font verdana="" size="2" color="ffffff">LOKALIZACJA DETALE</font></th>
-</tr><tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-25 12:27:13</font></td>
+</tr><tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-26 12:29:26</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0026077</font></td>
+<td align="CENTER"><font face="verdana" size="3">SYBERIA,Powiat ZUROMINSKI,BT13329,Problemy z polaczeniami glosowymi oraz transmisja danych</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: MAZ</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat ZUROMINSKI, MLECZOWKA, Ulica MLECZOWKA 10 [53.088120;19.718190;3]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-26 09:20:02</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0026074</font></td>
+<td align="CENTER"><font face="verdana" size="3">OSTROWIEC SWIETOKRZYSKI -CENTRUM,Powiat OSTROWIECKI,NB12185,problemy z polaczeniami glosowym.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: SWI</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat OSTROWIECKI, OSTROWIEC SWIETOKRZYSKI, Ulica OPATOWSKA 29 [50.935616;21.387264;1]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-26 08:31:43</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0026073</font></td>
+<td align="CENTER"><font face="verdana" size="3">TROJACZKOWICE,Powiat LUBELSKI,SN12737,problemy z polaczeniami glosowym.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: LBL</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat LUBELSKI, RADAWIEC DUZY, Ulica RADAWIEC DUZY 166 [51.178157;22.421775;2]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-25 13:48:06</font></td>
+<td align="CENTER"><font face="verdana" size="3">GCTR-0026071</font></td>
+<td align="CENTER"><font face="verdana" size="3">METOW ,Powiat LUBELSKI,SN10212,problemy z polaczeniami glosowymi. RF_INTERFERENCJE.</font></td>
+<td align="CENTER"><font face="verdana" size="3">Woj: LBL</font></td>
+<td align="CENTER"><font face="verdana" size="4">Powiat LUBELSKI, METOW, Ulica METOW 85 [51.154121;22.583518;2]</font></td>
+</tr>
+<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-25 12:27:13</font></td>
 <td align="CENTER"><font face="verdana" size="3">GCTR-0026070</font></td>
 <td align="CENTER"><font face="verdana" size="3">Klienci CP moga zglaszac problemy z zestawieniem sesji internetowej</font></td>
-<td align="CENTER"><font face="verdana" size="3">Woj: MAL</font></td>
+<td align="CENTER"><font face="verdana" size="3">POLSKA</font></td>
 <td align="CENTER"><font face="verdana" size="4">POLSKA</font></td>
 </tr>
 <tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-25 08:25:46</font></td>
@@ -35,13 +59,6 @@ setTimeout("this.location.reload(true);",100000);
 <td align="CENTER"><font face="verdana" size="3">ROZNOW,Powiat NOWOSADECKI,BT24787,Problemy z polaczeniami glosowymi oraz transmisja danych</font></td>
 <td align="CENTER"><font face="verdana" size="3">Woj: MAL</font></td>
 <td align="CENTER"><font face="verdana" size="4">Powiat NOWOSADECKI, ROZNOW, Ulica ROZNOW 406 [49.758611;20.702207;2]</font></td>
-</tr>
-<tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-24 16:43:42</font></td>
-<td align="CENTER"><font face="verdana" size="3">GCTR-0026062</font></td>
-<td align="CENTER"><font face="verdana" size="3">LEJEK PREPAID - taryfy ELASTYCZNA NA KARTE (GigaBank) i JA + Internet na Karte Bonus za doladowanie - problemy ze schodzeniem lejkow z PCRF po doladowaniu.
-</font></td>
-<td align="CENTER"><font face="verdana" size="3">POLSKA</font></td>
-<td align="CENTER"><font face="verdana" size="4">Lejek PREPAID</font></td>
 </tr>
 <tr bgcolor="000000" text="#0AF5F5"><td align="CENTER"><font face="verdana" size="4">2020-02-20 12:21:20</font></td>
 <td align="CENTER"><font face="verdana" size="3">GCTR-0026054</font></td>
