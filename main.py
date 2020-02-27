@@ -3,12 +3,27 @@ import json
 import time
 from geopy.geocoders import Nominatim
 import substring
+import ftplib
 geolocator = Nominatim(user_agent="my-application")
 def calculate_distance(lat1, lon1, lat2, lon2):
   p = 0.017453292519943295 #Pi/180
   a = 0.5 - cos((lat2 - lat1) * p)/2 + cos(lat1 * p) * cos(lat2 * p) * (1 - cos((lon2 - lon1) * p)) / 2
   return 12742 * asin(sqrt(a)) #2*R*asin...
-print("stan gctr na 26.02.2020 13:04")
+print("BE TE ESik v3 - piotr.wawrzyczek@netia.pl")
+print("Udało ustawić się automatyczne pobieranie GCTR , musze skonfigurować to w pracy")
+print("Nadajniki wyszukuje w 100% dokładnie")
+print("Dodano kolory, powyżej 5km czerwony, od 3 do 5 pomaranczowy, do 3 zielony")
+def pobierzgctr():
+
+  path = '/'
+  filename = 'gctrftp.xls'
+
+  ftp = ftplib.FTP("serwer1987047.home.pl") 
+  ftp.login("admin@momail.site", "Jamnik22!") 
+  ftp.cwd(path)
+  ftp.retrbinary("RETR " + filename, open(filename, 'wb').write)
+  ftp.quit()
+  
 class bcolors:
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
@@ -42,7 +57,9 @@ class Transmitter:
     print('Tryby sieci: %s' % ', '.join(self.network_modes))
         # print('->')
         # SZUKANIE GCTR
-    gctropen = open('gctr.xls', mode='r+')
+    
+    gctropen = open('gctrftp.xls', mode='r+')
+    
     gctrread = gctropen.readlines()
     warun = 0
     liniaaa = 0
@@ -81,6 +98,7 @@ def update_distances(lat1, lon1, transmitters):
 
 def get_lat_lon(geolocator):
   while True:
+    pobierzgctr()
     city = input('Wprowadź adres: ')
     country = 'PL'
 
