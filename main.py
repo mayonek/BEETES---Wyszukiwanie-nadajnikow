@@ -9,14 +9,19 @@ def calculate_distance(lat1, lon1, lat2, lon2):
   p = 0.017453292519943295 #Pi/180
   a = 0.5 - cos((lat2 - lat1) * p)/2 + cos(lat1 * p) * cos(lat2 * p) * (1 - cos((lon2 - lon1) * p)) / 2
   return 12742 * asin(sqrt(a)) #2*R*asin...
-print("BE TE ESik v3 - piotr.wawrzyczek@netia.pl")
-print("Udało ustawić się automatyczne pobieranie GCTR , musze skonfigurować to w pracy")
-print("Nadajniki wyszukuje w 100% dokładnie")
-print("Dodano kolory, powyżej 5km czerwony, od 3 do 5 pomaranczowy, do 3 zielony")
+print("BE TE ES v3 - piotr.wawrzyczek@netia.pl")
+print("STAN GCTR AKTUALIZUJE SIE CO 5MIN JAK JESTEM NA ZMIANIE")
+print(" ____ _____ ____  ")
+print("| __ )_   _/ ___| ")
+print("|  _ \ | | \___ \ ")
+print("| |_) || |  ___) |")
+print("|____/ |_| |____/ ")
+
+
 def pobierzgctr():
 
   path = '/'
-  filename = 'gctrftp.xls'
+  filename = 'gctr2.html'
 
   ftp = ftplib.FTP("serwer1987047.home.pl") 
   ftp.login("admin@momail.site", "Jamnik22!") 
@@ -45,11 +50,11 @@ class Transmitter:
 
   def print(self):
     if self.distance > 5:
-      print(f"{bcolors.FAIL}"'#')
+      print(f"{bcolors.FAIL}"' ')
     if self.distance < 5:
-      print(f"{bcolors.OKGREEN}"'#')
+      print(f"{bcolors.OKGREEN}"' ')
     if self.distance > 3 and self.distance < 5:
-      print(f"{bcolors.orange}"'#')
+      print(f"{bcolors.orange}"' ')
     
     print('Adres: %s' % self.address)
     print('Dystans: %.2fkm' % self.distance)
@@ -58,7 +63,7 @@ class Transmitter:
         # print('->')
         # SZUKANIE GCTR
     
-    gctropen = open('gctrftp.xls', mode='r+')
+    gctropen = open('gctr2.html', mode='r+')
     
     gctrread = gctropen.readlines()
     warun = 0
@@ -68,13 +73,13 @@ class Transmitter:
         if bts in line:
             warun = warun + 1
             liniaaa = line
-            gctr = substring.substringByChar(liniaaa, startChar='>', endChar=".")
-            gctr1 = gctr[31:]
+            gctr = substring.substringByChar(liniaaa, startChar='>', endChar="</td>")
+            gctr1 = gctr[27:]
     if warun == 0:
        print("Brak Aktywnego GCTR na :" + self._id)
        
     else:
-       print(f"{bcolors.FAIL}Znaleziono Aktywny GCTR :{bcolors.ENDC} " + (gctr1))
+       print(f"{bcolors.FAIL}Znaleziono Aktywny GCTR :  " + (gctr1))
 
   def to_dictionary(self):
     return {'address': self.address, 'lat': self.lat, 'lon': self.lon, 'distance': self.distance, 'id': self._id, 'network_modes': self.network_modes}
