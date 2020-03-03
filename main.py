@@ -104,11 +104,14 @@ def update_distances(lat1, lon1, transmitters):
 def get_lat_lon(geolocator):
   while True:
     pobierzgctr()
-    city = input('Wprowadź adres: ')
+    global city
+    city = input(f"{bcolors.BOLD}Wprowadź miasto:{bcolors.ENDC}")
+    global ul
+    ul = input(f"{bcolors.BOLD}Wprowadź ulice:{bcolors.ENDC}")
     country = 'PL'
 
     try:
-      loc = geolocator.geocode(city + ',' + country)
+      loc = geolocator.geocode(ul + "," + city + ',' + country)
     except Exception as e:
       print(e)
       break
@@ -120,7 +123,8 @@ def get_lat_lon(geolocator):
 
 
 def generate_link(lat1, lon1):
-  print('Generowanie linku')
+  print('  ')
+  print('Wyszukiwany adres : '+ city  + " " + ul)
   url = 'http://beta.btsearch.pl/?dataSource=locations&network=26001&standards=&bands=&center={},{}&zoom=20'.format(lat1, lon1)
   print(f"{bcolors.OKBLUE}"+f"{bcolors.BOLD}"+url+bcolors.ENDC)
 
@@ -132,7 +136,23 @@ def init(lat1, lon1, transmitters):
     lat2 = float(e['lat'])
     lon2 = float(e['lon'])
     transmitters.append(Transmitter(e['address'], lat2, lon2, 0, e['id'], e['network_modes']))
+def leftgctr():
+  gctropen = open('gctr2.html', mode='r+')
 
+  gctrread = gctropen.readlines()
+  warun = 0
+  liniaaa = 0
+  city1 = city.upper()
+
+  for line in gctrread:
+    if city1 in line:
+      liniaaa = line
+      #gctr = substring.substringByChar(liniaaa, startChar='>', endChar="</td>")
+      gctr1 = liniaaa[43:]
+      print(f"{bcolors.FAIL}GCTRy aktywne w mieście " + city1 + " sprawdź http://10.13.194.24/DKOK/")
+      print(" ")
+      print(gctr1)
+      break
 
 def main():
   lat1 = 50.385550
@@ -149,7 +169,7 @@ def main():
     for t in transmitters[:n]:
       t.print()
     save_to_file(lat1, lon1, transmitters, n)
-
+    leftgctr()
 
 if __name__ == '__main__':
   main()
