@@ -11,11 +11,6 @@ def calculate_distance(lat1, lon1, lat2, lon2):
   return 12742 * asin(sqrt(a)) #2*R*asin...
 print("BE TE ES v3 - piotr.wawrzyczek@netia.pl")
 print("STAN GCTR AKTUALIZUJE SIE CO 5MIN JAK JESTEM NA ZMIANIE")
-print(" ____ _____ ____  ")
-print("| __ )_   _/ ___| ")
-print("|  _ \ | | \___ \ ")
-print("| |_) || |  ___) |")
-print("|____/ |_| |____/ ")
 
 
 def pobierzgctr():
