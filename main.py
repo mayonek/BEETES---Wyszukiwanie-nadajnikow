@@ -34,6 +34,7 @@ class bcolors:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
     orange='\033[33m'
+    White= "\033[97m"
 class Transmitter:
   def __init__(self, address, lat, lon, distance, _id, network_modes):
     self.address = address
@@ -156,13 +157,13 @@ def leftgctr():
       break
 def dodatki(lat1, lon1):
   
-  print(f"{bcolors.HEADER}Dodatkowe narzędzia:↓")
+  print(f"{bcolors.White}Dodatkowe narzędzia:↓")
   print(f"{bcolors.UNDERLINE}Link do mapy ukształtowania terenu ↓")
   urlgoogle = 'https://www.google.com/maps/@{},{},245a,35y,39.15t/data=!3m1!1e3'.format(lat1, lon1)
   urlplus = 'https://www.plus.pl/mapa-zasiegu'
   print(f"{bcolors.OKBLUE}"+f"{bcolors.BOLD}"+urlgoogle+bcolors.ENDC)
   print('')
-  print(f"{bcolors.UNDERLINE}Sprawdź pokrycie zasięgowe ↓ ")
+  print(f"{bcolors.White}Sprawdź pokrycie zasięgowe ↓ ")
   print(f"{bcolors.OKBLUE}"+f"{bcolors.BOLD}"+urlplus+bcolors.ENDC)
   
 def main():
