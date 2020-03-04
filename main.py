@@ -156,7 +156,7 @@ def leftgctr():
       break
 def dodatki(lat1, lon1):
   
-  print(f"{bcolors.UNDERLINE}Dodatkowe narzędzia:↓")
+  print(f"{bcolors.HEADER}Dodatkowe narzędzia:↓")
   print(f"{bcolors.UNDERLINE}Link do mapy ukształtowania terenu ↓")
   urlgoogle = 'https://www.google.com/maps/@{},{},245a,35y,39.15t/data=!3m1!1e3'.format(lat1, lon1)
   urlplus = 'https://www.plus.pl/mapa-zasiegu'
