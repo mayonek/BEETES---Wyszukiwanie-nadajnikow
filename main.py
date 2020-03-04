@@ -9,8 +9,8 @@ def calculate_distance(lat1, lon1, lat2, lon2):
   p = 0.017453292519943295 #Pi/180
   a = 0.5 - cos((lat2 - lat1) * p)/2 + cos(lat1 * p) * cos(lat2 * p) * (1 - cos((lon2 - lon1) * p)) / 2
   return 12742 * asin(sqrt(a)) #2*R*asin...
-print("BE TE ES v3 - piotr.wawrzyczek@netia.pl")
-print("STAN GCTR AKTUALIZUJE SIE CO 5MIN JAK JESTEM NA ZMIANIE")
+print("BETEES - piotr.wawrzyczek@netia.pl")
+
 
 
 def pobierzgctr():
@@ -118,10 +118,16 @@ def get_lat_lon(geolocator):
 
 
 def generate_link(lat1, lon1):
-  print('  ')
+  print('')
   print('Wyszukiwany adres : '+ city  + " " + ul)
+  
   url = 'http://beta.btsearch.pl/?dataSource=locations&network=26001&standards=&bands=&center={},{}&zoom=20'.format(lat1, lon1)
+  
+  print('')
+  print("Link do map btsearch")
   print(f"{bcolors.OKBLUE}"+f"{bcolors.BOLD}"+url+bcolors.ENDC)
+  
+  
 
 
 def init(lat1, lon1, transmitters):
@@ -148,7 +154,17 @@ def leftgctr():
       print(" ")
       print(gctr1)
       break
-
+def dodatki(lat1, lon1):
+  
+  print("Dodatkowe narzędzia:↓")
+  print("Link do mapy ukształtowania terenu")
+  urlgoogle = 'https://www.google.com/maps/@{},{},245a,35y,39.15t/data=!3m1!1e3'.format(lat1, lon1)
+  urlplus = 'https://www.plus.pl/mapa-zasiegu'
+  print(f"{bcolors.OKBLUE}"+f"{bcolors.BOLD}"+urlgoogle+bcolors.ENDC)
+  print('')
+  print("Link do map zasięgu")
+  print(f"{bcolors.OKBLUE}"+f"{bcolors.BOLD}"+urlplus+bcolors.ENDC)
+  
 def main():
   lat1 = 50.385550
   lon1 = 18.902662
@@ -164,7 +180,8 @@ def main():
     for t in transmitters[:n]:
       t.print()
     save_to_file(lat1, lon1, transmitters, n)
+    
     leftgctr()
-
+    dodatki(lat1, lon1)
 if __name__ == '__main__':
   main()
